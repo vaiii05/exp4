@@ -3,6 +3,7 @@ pipeline {
 
     tools {
         maven 'Maven-3.9.12'   // Configure this in Global Tool Configuration
+        jdk 'JDK-25.0.2'
     }
 
     stages {
